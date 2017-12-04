@@ -3,6 +3,7 @@ package com.example.bootstrap
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity(), MainView {
 
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity(), MainView {
     }
 
     override fun doSomething() {
+        Timber.i("Done")
         main_text.text = "Done"
     }
 }
