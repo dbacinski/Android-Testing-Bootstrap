@@ -1,6 +1,8 @@
 package com.example.bootstrap
 
 import com.example.bootstrap.MockitoRuleFactory.mockitoStrictRule
+import com.example.bootstrap.main.MainPresenter
+import com.example.bootstrap.main.MainView
 import org.junit.Rule
 import org.junit.Test
 import org.mockito.Mock
